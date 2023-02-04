@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <%@page import="java.util.ArrayList"%>
-<%@ page import="com.example.pp.model.Recharge" %>
+<%@ page import="com.example.ezaka.model.Recharge" %>
 <% ArrayList<Recharge> liste = (ArrayList<Recharge>) request.getAttribute("liste"); %>
 
 <html lang="en">

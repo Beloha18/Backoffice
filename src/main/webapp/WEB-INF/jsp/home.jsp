@@ -1,5 +1,5 @@
 <%@page import="java.util.ArrayList"%>
-<%@ page import="com.example.pp.model.Enchere" %>
+<%@ page import="com.example.ezaka.model.Enchere" %>
 
 <% ArrayList<Enchere> list = (ArrayList<Enchere>) request.getAttribute("list"); %>
 

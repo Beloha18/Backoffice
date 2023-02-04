@@ -1,5 +1,5 @@
 <%@page import="java.util.ArrayList"%>
-<%@ page import="com.example.pp.model.Proposition" %>
+<%@ page import="com.example.ezaka.model.Proposition" %>
 <% ArrayList<Proposition> list = (ArrayList<Proposition>) request.getAttribute("list"); %>
 <%
     double total_rencherir = 0.0;
